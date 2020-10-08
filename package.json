@@ -23,9 +23,6 @@
     "prod": "ls && sapper build --legacy; now",
     "commit": "git add . -A ; git commit ; git push origin master "
   },
-  "engines": {
-    "node": "12.x"
-  },
   "browser": {
     "airtable": "./node_modules/airtable/build/airtable.browser"
   },
